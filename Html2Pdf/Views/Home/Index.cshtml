@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="content">
+    <h1>Get PDF Test</h1>
+    <p>There are some content here</p>
+    <p>There are some other content here</p>
+</div>
+<div id="editor"></div>
+<button id="btn_getPdf" class="btn btn-primary">Get PDF</button>
+
+
+@section Scripts{ 
+<script>
+    //window.jsPDF = window.jspdf.jsPDF;
+    
+
+    $('#btn_getPdf').click(function () {
+        var doc = new jsPDF();
+        var specialElementHandlers = {
+            '#editor': function (element, renderer) {
+                return true;
+            }
+        };
+
+        doc.fromHTML($('#content').html(), 15, 15, {
+            'width': 170,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('sample-PDF-file.pdf');
+    });
+    
+
+</script>
+}

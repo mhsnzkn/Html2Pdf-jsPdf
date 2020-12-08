@@ -2,35 +2,51 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div id="content">
-    <h1>Get PDF Test</h1>
-    <p>There are some content here</p>
-    <p>There are some other content here</p>
-</div>
-<div id="editor"></div>
-<button id="btn_getPdf" class="btn btn-primary">Get PDF</button>
+<div class="row">
+    <div class="col-md-6">
+        <div id="content">
+            <h1>Get PDF Test</h1>
+            <p>There are some content here</p>
+            <p>There are some other content here</p>
+        </div>
+        <div id="editor"></div>
+        <button id="btn_getPdf" class="btn btn-primary">Get PDF Client Side</button>
+    </div>
+    <div class="col-md-6">
+        <form method="post" asp-action="Index">
+            <div class="form-group">
+                <label for="exampleInputEmail1">HTML</label>
+                <textarea rows="6" name="html" class="form-control" ></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Server Side PDF</button>
+        </form>
+
+    </div>
+
+    </div>
 
 
-@section Scripts{ 
-<script>
-    //window.jsPDF = window.jspdf.jsPDF;
-    
+    @section Scripts{
+        <script>
+            //window.jsPDF = window.jspdf.jsPDF;
 
-    $('#btn_getPdf').click(function () {
-        var doc = new jsPDF();
-        var specialElementHandlers = {
-            '#editor': function (element, renderer) {
-                return true;
-            }
-        };
 
-        doc.fromHTML($('#content').html(), 15, 15, {
-            'width': 170,
-            'elementHandlers': specialElementHandlers
-        });
-        doc.save('sample-PDF-file.pdf');
-    });
-    
+            $('#btn_getPdf').click(function () {
+                var doc = new jsPDF();
+                var specialElementHandlers = {
+                    '#editor': function (element, renderer) {
+                        return true;
+                    }
+                };
 
-</script>
-}
+                doc.fromHTML($('#content').html(), 15, 15, {
+                    'width': 170,
+                    'elementHandlers': specialElementHandlers
+                });
+                doc.save('sample-PDF-file.pdf');
+            });
+
+
+        </script>
+    }

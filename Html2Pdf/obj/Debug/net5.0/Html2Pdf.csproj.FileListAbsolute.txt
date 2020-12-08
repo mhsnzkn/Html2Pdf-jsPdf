@@ -355,3 +355,17 @@ C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\obj\Debug\net5.0\Html2Pdf.dll
 C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\obj\Debug\net5.0\ref\Html2Pdf.dll
 C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\obj\Debug\net5.0\Html2Pdf.pdb
 C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\obj\Debug\net5.0\Html2Pdf.genruntimeconfig.cache
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\Common.Logging.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\Common.Logging.Core.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\itext.barcodes.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\itext.forms.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\itext.io.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\itext.kernel.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\itext.layout.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\itext.pdfa.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\itext.sign.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\itext.styledxmlparser.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\itext.svg.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\itext.html2pdf.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\TheBeast\source\repos\Html2Pdf\Html2Pdf\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll

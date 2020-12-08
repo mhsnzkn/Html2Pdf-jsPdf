@@ -37,6 +37,7 @@ namespace Html2Pdf.Controllers
                 {
                 }
             }
+            //To download the file headers must be set 
             Response.Headers.Add("Content-Disposition", "attachment");
             Response.Headers.Add("filename", "ServerSide.pdf");
             workStream.Position = 0;
